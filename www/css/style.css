@@ -1,0 +1,70 @@
+    #map-canvas{
+        width:100%;
+        padding:0;
+        position: absolute !important;
+        top:44.375px;
+        right:0px;
+        bottom:0px !important;
+        left:0px !important;
+    }
+
+    /*Barra de navegacion*/
+    .ui-page-theme-a .ui-bar-inherit{
+        color: white;
+        text-shadow:none;
+        background-image: -webkit-linear-gradient(#9900ff, #AA00ff);
+        background-image: -o-linear-gradient(#9900ff, #AA00ff);
+        background-image: linear-gradient(#9900ff, #AA00ff);
+        border:solid 1px #330033;
+        box-shadow: 0px 1px 0 rgba(32,32,32,0.5),
+                    0px 2px 0 rgba(64,64,64,0.3),
+                    0px 3px 0 rgba(128,128,128,0.3);
+    }
+
+    /*Boton atras de barra de navegacion*/
+    .ui-page-theme-a .ui-bar-inherit[data-add-back-btn=true] .ui-btn{
+        background-image: -webkit-linear-gradient(#660066, #BB00BB);
+        background-image: -o-linear-gradient(#660066, #BB00BB);
+        background-image: linear-gradient(#660066, #BB00BB);
+        border-color: #330033;
+    }
+    .ui-page-theme-a .ui-bar-inherit[data-add-back-btn=true] .ui-btn:hover{
+        background: #BB00BB;
+    }
+    .ui-page-theme-a .ui-bar-inherit[data-add-back-btn=true] .ui-btn:active{
+        background-image: -webkit-linear-gradient(#330033, #660066);
+        background-image: -o-linear-gradient(#330033, #660066);
+        background-image: linear-gradient(#330033, #660066);
+    }
+
+    /*Pagina web general*/
+    .ui-page{
+        color:#666;     
+        background: #EEE;
+        background-image:-webkit-linear-gradient(#EEE 0%, #D4D4D4 51%);
+        background-image:-o-linear-gradient(#EEE 0%, #D4D4D4 51%);
+        background-image:linear-gradient(#EEE 0%, #D4D4D4 51%);
+    }
+
+    /*Botones*/
+    .ui-page-theme-a .ui-btn{
+        color: white;
+        text-shadow:none;
+        background: orange;
+        border-color:#e68a00;
+    }
+    .ui-page-theme-a .ui-btn:hover{
+        color: white;
+        text-shadow:none;
+        background: #b36b00;
+        border-color:#e68a00;
+    }
+    .ui-page-theme-a .ui-btn:active{
+        background-image: -webkit-linear-gradient(#804D00, #e68a00);
+        background-image: -o-linear-gradient(#804D00, #e68a00);
+        background-image: linear-gradient(#804D00, #e68a00);
+    }
+
+    #n_personalizado{
+    text-transform:capitalize;
+}
